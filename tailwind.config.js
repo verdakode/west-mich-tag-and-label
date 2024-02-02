@@ -5,7 +5,11 @@ module.exports = {
     // Include any other paths that may contain Tailwind CSS classes
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        navy: '#041540',
+      },
+    },
   },
   plugins: [],
 }

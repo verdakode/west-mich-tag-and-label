@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-900 text-white shadow-lg">
+    <nav className="bg-navy text-white shadow-lg">
       <div className="container mx-auto flex justify-between items-center py-3 px-5">
         <div className="text-lg font-bold">
           <Link href="/" legacyBehavior><a className="hover:text-blue-300">West Michigan Tag & Label</a></Link>

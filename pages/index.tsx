@@ -14,11 +14,11 @@ const HomePage = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-blue-800 text-white text-center py-20">
-        <h1 className="text-4xl font-bold mb-4">Quality Labels & Tags for Your Business</h1>
+      <section className="bg-blue-200 text-white text-center py-20">
+        <h1 className="text-6xl font-bold mb-4">Quality Labels & Tags for Your Business</h1>
         <p className="text-xl mb-6">Innovative Printing Solutions Tailored to Your Needs</p>
           <Link href="/contact" legacyBehavior>
-              <a className="bg-yellow-500 text-blue-900 px-6 py-3 rounded hover:bg-yellow-400">Get a Quote</a>
+              <a className="bg-white text-blue-900 px-6 py-3 rounded hover:bg-blue-400">Get a Quote</a>
           </Link>
 
       </section>
