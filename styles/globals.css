@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@layer components {
+  .navbar-item {
+    @apply px-8 py-2;/* Tailwind padding utilities */
+    @apply hover:bg-gray-100 rounded-md; /* Additional styles */
+  }
+}
+body {
+  font-family: 'Playfair Display', serif;
+}

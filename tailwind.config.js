@@ -6,8 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        subheadUno: ['Playfair Display', 'serif'],
+      },
       colors: {
-        navy: '#041540',
+        navy: '#093052',
+        gold: '#89764e',
       },
     },
   },
