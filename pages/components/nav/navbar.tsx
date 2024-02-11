@@ -20,7 +20,7 @@ const Navbar = () => {
              className="navbar-item cursor-pointer">Printing
             {isDropdownOpen && (
               <div className="absolute bg-blue-200 mt-2 py-3 rounded shadow-lg">
-                <Link href="/printing/flexo" className="block px-4 py-2 hover:bg-gray-100">Flexo</Link>
+                <Link href="/printing/flexo" className="block px-4 py-2 hover:bg-gray-100">Flexographic</Link>
                 <Link href="/printing/digital"  className="block px-4 py-2 hover:bg-gray-100">Digital</Link>
                 <Link href="/printing/offset"  className="block px-4 py-2 hover:bg-gray-100">Offset</Link>
               </div>
