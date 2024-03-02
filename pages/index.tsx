@@ -10,14 +10,16 @@ import '../styles/globals.css';
 
 const HomePage = () => {
   return (
-    <div>
-        <Navbar />
+    <>
+      <Navbar />
+      <main>
         <Hero />
         <SellingPoints />
         <Services />
         <ContactSection />
-        <Footer />
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 };
 

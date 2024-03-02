@@ -8,13 +8,13 @@ const Navbar = () => {
 
   return (
     <nav className="bg-blue-200 text-navy shadow-lg">
-      <div className="container mx-auto flex justify-between items-center py-3 px-5">
-        <div className="text-lg font-bold">
+      <div className="container mx-auto flex flex-col items-center py-6 px-5">
+        <div className="text-lg font-bold mb-10">
   <Link href="/">
       <Image src="/WestMichTagAndLabel/wmtl_logo.png" alt="West Michigan Tag & Label Logo" className="hover:opacity-75" width={250} height={150} />
   </Link>
         </div>
-        <div className="flex items-center relative text-xl">
+        <div className="flex flex-wrap justify-center text-2xl">
           <Link href="/"  className="navbar-item">Home</Link>
           <div onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => setIsDropdownOpen(false)}
              className="navbar-item cursor-pointer">Printing
