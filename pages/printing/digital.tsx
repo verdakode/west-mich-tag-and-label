@@ -11,7 +11,7 @@ const DigitalPrint: React.FC = () => {
           <h1 className="text-3xl font-bold text-center mb-4">Digital Printing</h1>
           <p className="text-lg mb-4">
             Digital printing is a modern printing method that involves the direct transfer of a digital image onto a variety of media. 
-            It's ideal for high-quality, small-batch print runs on materials such as paper, canvas, fabric, and plastic.
+            It%apos;s ideal for high-quality, small-batch print runs on materials such as paper, canvas, fabric, and plastic.
             This method excels in producing vivid, accurate colors and high-definition details.
           </p>
           <p className="text-lg mb-6">
